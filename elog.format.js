@@ -11,7 +11,7 @@ function matterMarkdownAdapter(post) {
     const { properties, description } = post
     const props = {
       ...properties,
-      description,
+      description: description || '',
       tags: ['语雀'],
       title: properties?.title?.replace(/"/g, ''), // 临时去掉标题中的引号，至少保证文章页面是正常可访问的
     }

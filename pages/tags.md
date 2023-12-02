@@ -4,4 +4,6 @@ title: 分类
 description: Tags
 aside: false
 ---
-<Tags/>
+<ClientOnly>
+  <Tags/>
+</ClientOnly>

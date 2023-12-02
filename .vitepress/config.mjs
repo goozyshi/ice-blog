@@ -9,6 +9,7 @@ export default defineConfig({
   title: "饮冰🧊",
   description: "goozyshi 的博客",
   ignoreDeadLinks: true,
+  // base: '/',
   themeConfig: {
     posts: await getPosts(pageSize),
     search: {

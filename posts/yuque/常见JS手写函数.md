@@ -3,7 +3,7 @@ title: 常见JS手写函数
 urlname: nqg7cu
 date: '2021-01-06 00:48:09'
 updated: '2022-07-03 13:28:28'
-description: null
+description: ''
 tags:
   - 语雀
 ---
