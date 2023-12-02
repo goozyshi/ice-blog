@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { getPosts } from './utils/postsUtils'
 import { YuQueSVG } from "./utils/svgUtils";
-const isProd = process.env.NODE_ENV === 'production';
 //每页的文章数量
 const pageSize = 10
 // https://vitepress.dev/reference/site-config
@@ -9,7 +8,7 @@ export default defineConfig({
   title: "饮冰🧊",
   description: "goozyshi 的博客",
   ignoreDeadLinks: true,
-  base: isProd ? './' : '/',
+  base: '/ice-blog/',
   themeConfig: {
     posts: await getPosts(pageSize),
     search: {

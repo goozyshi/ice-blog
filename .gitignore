@@ -6,3 +6,4 @@ node_modules
 .elog.env
 
 posts/images
+pnpm-lock.yaml
