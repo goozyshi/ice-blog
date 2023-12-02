@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { genYuqueSideBar } from "./utils/routes";
 import { getPosts } from './utils/postsUtils'
 
 //每页的文章数量
