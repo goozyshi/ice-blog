@@ -8,7 +8,7 @@
     "elog:sync": "elog sync",
     "elog:clean": "elog clean",
     "dev": "vitepress dev",
-    "build": "vitepress build",
+    "build": "vitepress build --NODE_ENV=production",
     "preview": "vitepress preview"
   },
   "keywords": [],

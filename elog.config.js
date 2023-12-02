@@ -22,7 +22,7 @@ module.exports = {
   },
   image: {
     enable: false,
-    platform: 'local',
+    platform: 'cos',
     // 本地
     local: {
       outputDir: './posts/images/yuque',
@@ -45,7 +45,7 @@ module.exports = {
       bucket: process.env.COS_BUCKET,
       region: process.env.COS_REGION,
       host: process.env.COS_HOST,
-      prefixKey: '',
+      prefixKey: '/yuque',
     },
   }
 }
