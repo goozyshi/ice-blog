@@ -1,0 +1,24 @@
+{
+  "name": "ice-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "elog:sync-local": "elog sync -e .elog.env",
+    "elog:sync": "elog sync",
+    "elog:clean": "elog clean",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@elog/cli": "^0.12.4",
+    "fs-extra": "^11.2.0",
+    "globby": "^14.0.0",
+    "gray-matter": "^4.0.3",
+    "vitepress": "1.0.0-rc.31"
+  }
+}
